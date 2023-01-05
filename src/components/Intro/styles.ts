@@ -56,7 +56,7 @@ export const StyledRightDivWrapper = styled.div`
 `;
 
 export const StyledImageContainer = styled.div`
-  width: 800px;
+  width: 900px;
   height: 800px;
   background-color: crimson;
   border-radius: 50%;
