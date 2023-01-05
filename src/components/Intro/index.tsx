@@ -10,7 +10,7 @@ import {
 import { IcDownArrow } from "common/icons";
 
 function Intro() {
-  const textRef = useRef();
+  const textRef = useRef(null);
 
   useEffect(() => {
     if (textRef.current)
