@@ -37,8 +37,6 @@ export const StyledLeftPartWrapper = styled.div`
   align-items: center;
 `;
 
-export const StyledRightPartWrapper = styled.div``;
-
 export const StyledInfoWrapper = styled.div`
   display: flex;
   align-items: center;

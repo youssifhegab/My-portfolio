@@ -7,7 +7,6 @@ import {
   StyledLeftPartWrapper,
   StyledInfoWrapper,
   StyledSpanText,
-  StyledRightPartWrapper,
 } from "./styles";
 import HamBurger from "../HamBurger";
 import { useIsMenuOpenContext } from "common/context/menuOpenContext";
@@ -28,9 +27,9 @@ function TopBar() {
             <StyledSpanText>youssif.hegab123@gmail.com</StyledSpanText>
           </StyledInfoWrapper>
         </StyledLeftPartWrapper>
-        <StyledRightPartWrapper>
+        <div>
           <HamBurger />
-        </StyledRightPartWrapper>
+        </div>
       </StyledBarWrapper>
     </StyledTopBarWrapper>
   );

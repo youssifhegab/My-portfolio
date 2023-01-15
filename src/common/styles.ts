@@ -1,6 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 
-export const mainColor = "#15023a";
+export const mainColor = "#DC143C";
 
 export const GlobalStyle = createGlobalStyle`
   /* set box-sizing to border-box */

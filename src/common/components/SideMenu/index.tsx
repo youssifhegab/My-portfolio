@@ -17,9 +17,6 @@ function SideMenu() {
           <a href='#works'>Works</a>
         </li>
         <li onClick={() => setIsMenuOpen(false)}>
-          <a href='#testimonials'>Testimonials</a>
-        </li>
-        <li onClick={() => setIsMenuOpen(false)}>
           <a href='#contact'>Contacts</a>
         </li>
       </StyledListWrapper>
